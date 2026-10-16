@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090a0c">
+  <meta name="description" content="Uma homenagem para Lara Paulino, a voz mais bonita do meu mundo.">
+  <title>Lara, 18 anos de pura música</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Voltar ao início">LP<span>18</span></a>
+    <p class="header-note">UM TRIBUTO EM ALTO VOLUME</p>
+    <a class="header-link" href="#carta">abrir carta <span>↘</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> 20 · 10 · 2026</p>
+        <h1 id="hero-title">Lara,<br><em>18</em> voltas<br>ao redor do sol.</h1>
+        <p class="hero-intro">Hoje o mundo fica um pouco mais bonito, porque a minha cantora favorita está fazendo aniversário.</p>
+        <a class="arrow-link" href="#carta">desce o som <span>↓</span></a>
+      </div>
+      <div class="hero-art reveal reveal-delay">
+        <img class="hero-photo" src="foto_lara.png" alt="Lara, com sua guitarra, em um cenário de rock">
+        <div class="sun"></div>
+        <div class="star star-one">✦</div>
+        <div class="star star-two">✦</div>
+        <div class="stage-lines"></div>
+        <div class="record">LARA<br><small>PAULINO</small></div>
+        <p class="art-caption">THE MAIN<br>CHARACTER</p>
+      </div>
+      <div class="scroll-label">SCROLL PARA O BIS <span>↓</span></div>
+    </section>
+
+    <section class="countdown-section" aria-labelledby="countdown-title">
+      <div class="section-kicker">CONTAGEM REGRESSIVA <span>//</span> PARA O GRANDE DIA</div>
+      <div class="countdown-layout">
+        <div>
+          <h2 id="countdown-title">O palco é<br><em>todo seu.</em></h2>
+          <p class="section-copy">Cada ano seu parece uma música nova: impossível não apertar o repeat.</p>
+        </div>
+        <div class="countdown" aria-label="Contagem regressiva para o aniversário">
+          <div class="time-unit"><strong id="days">00</strong><span>dias</span></div>
+          <div class="time-divider">:</div>
+          <div class="time-unit"><strong id="hours">00</strong><span>horas</span></div>
+          <div class="time-divider">:</div>
+          <div class="time-unit"><strong id="minutes">00</strong><span>min</span></div>
+          <div class="time-divider">:</div>
+          <div class="time-unit"><strong id="seconds">00</strong><span>seg</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter-section" id="carta" aria-labelledby="letter-title">
+      <div class="letter-label">FAIXA 01 <span>·</span> CARTA ABERTA</div>
+      <div class="letter-card">
+        <div class="letter-top"><span>PARA: LARA PAULINO</span><span>DE: MATHEUS AMBONI</span></div>
+        <h2 id="letter-title">A minha<br><em>pessoa</em> favorita.</h2>
+        <div class="letter-body">
+          <div class="signature-mark">L<span>♡</span></div>
+          <div class="letter-text">
+            <p>Lara,</p>
+            <p>Se eu pudesse transformar tudo que sinto em uma música, ela ainda não seria grande o bastante. Mas eu fiz essa página para tentar chegar um pouco mais perto.</p>
+            <p>Que seus 18 venham com riffs altos, sonhos enormes, palcos lotados e aquela sua voz que faz qualquer lugar parecer casa. Eu sou muito sortudo por viver essa história com você.</p>
+            <p class="love-line">Te amo mais que qualquer refrão.<br><strong>— Matheus</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="playlist-section" aria-labelledby="playlist-title">
+      <div class="vinyl-art" aria-hidden="true"><div class="vinyl-center">LP</div></div>
+      <div class="playlist-content">
+        <div class="section-kicker">FAIXA 02 <span>//</span> LADO A</div>
+        <h2 id="playlist-title">A trilha sonora<br>da <em>Lara.</em></h2>
+        <p class="section-copy">Dá o play e imagina a gente cantando isso no meio da sala, sem vergonha nenhuma.</p>
+        <button class="play-button" id="playButton" type="button" aria-pressed="false"><span class="play-icon">▶</span><span id="playLabel">dar play na homenagem</span></button>
+        <audio id="birthdayAudio" src="musica.mp3" preload="metadata"></audio>
+        <div class="waveform" id="waveform" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <p class="eyebrow"><span class="dot"></span> ÚLTIMO REFRÃO</p>
+      <h2>Feliz aniversário,<br><em>minha rockstar.</em></h2>
+      <p>Que nunca falte música, coragem e motivo para sorrir.</p>
+      <div class="sticker">18<br><small>YEARS<br>LOUD</small></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>feito com amor por Matheus</span><span>LARA PAULINO <b>♡</b> 2026</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
